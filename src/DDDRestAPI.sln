@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDRestAPI.Application", "DDDRestAPI.Application\DDDRestAPI.Application.csproj", "{2656D854-1415-4D6E-A976-1B14F6E78D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDRestAPI.Services", "DDDRestAPI.Services\DDDRestAPI.Services.csproj", "{029813EF-E672-4C63-9FB6-C3235FD8A61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDRestAPI.Domain", "DDDRestAPI.Domain\DDDRestAPI.Domain.csproj", "{C7786A0B-FC9C-4E3E-A2F6-A56C3C4F85B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDRestAPI.Infrastructure", "DDDRestAPI.Infrastructure\DDDRestAPI.Infrastructure.csproj", "{DB9920FC-094D-42CD-A08D-947300BD95DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2656D854-1415-4D6E-A976-1B14F6E78D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2656D854-1415-4D6E-A976-1B14F6E78D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2656D854-1415-4D6E-A976-1B14F6E78D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2656D854-1415-4D6E-A976-1B14F6E78D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029813EF-E672-4C63-9FB6-C3235FD8A61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029813EF-E672-4C63-9FB6-C3235FD8A61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029813EF-E672-4C63-9FB6-C3235FD8A61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029813EF-E672-4C63-9FB6-C3235FD8A61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7786A0B-FC9C-4E3E-A2F6-A56C3C4F85B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7786A0B-FC9C-4E3E-A2F6-A56C3C4F85B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7786A0B-FC9C-4E3E-A2F6-A56C3C4F85B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7786A0B-FC9C-4E3E-A2F6-A56C3C4F85B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9920FC-094D-42CD-A08D-947300BD95DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9920FC-094D-42CD-A08D-947300BD95DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9920FC-094D-42CD-A08D-947300BD95DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9920FC-094D-42CD-A08D-947300BD95DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
